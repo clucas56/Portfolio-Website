@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+  <title>Charles Lucas</title>
+  
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon" />
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+  
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+  
+  <style>
+    .social-links a {
+      font-size: 28px;
+      margin: 0 10px;
+      color: #0d6efd;
+      transition: transform 0.2s ease, color 0.2s ease;
+    }
+    .social-links a:hover {
+      color: #0056b3;
+      transform: scale(1.2);
+    }
+    .social-links i {
+      vertical-align: middle;
+    }
+
+    /* Enhanced Contact Section Styles */
+    .contact-wrapper {
+      display: flex;
+      gap: 30px;
+      align-items: flex-start;
+    }
+
+    .contact-info-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .contact-info-item {
+      display: flex;
+      align-items: center;
+      padding: 25px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .contact-info-item:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .contact-info-item i {
+      font-size: 36px;
+      color: #0d6efd;
+      margin-right: 20px;
+      min-width: 50px;
+    }
+
+    .contact-info-item h4 {
+      margin: 0 0 5px 0;
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .contact-info-item p {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .contact-info-item a {
+      color: #0d6efd;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .contact-info-item a:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+
+    .social-section {
+      flex: 0 0 250px;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+      text-align: right;
+    }
+
+    .social-title {
+      margin: 0 0 25px 0;
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+      text-align: right;
+    }
+
+    .social-links-contact {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: flex-end;
+    }
+
+    .social-links-contact a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 65px;
+      height: 65px;
+      background: #f8f9fa;
+      border-radius: 50%;
+      color: #333;
+      font-size: 32px;
+      transition: all 0.3s ease;
+    }
+
+    .social-links-contact a:hover {
+      transform: translateX(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .social-links-contact a.twitter:hover {
+      background: #1DA1F2;
+      color: #fff;
+    }
+
+    .social-links-contact a.facebook:hover {
+      background: #1877F2;
+      color: #fff;
+    }
+
+    .social-links-contact a.instagram:hover {
+      background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+      color: #fff;
+    }
+
+    .social-links-contact a.linkedin:hover {
+      background: #0077B5;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .contact-wrapper {
+        flex-direction: column;
+      }
+
+      .social-section {
+        flex: 1;
+        width: 100%;
+        text-align: center;
+      }
+
+      .social-title {
+        text-align: center;
+      }
+
+      .social-links-contact {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .social-links-contact a:hover {
+        transform: translateY(-5px);
+      }
+    }
+  </style>
+  
+  <!-- =======================================================
+  Chuck Nasty
+  ======================================================== -->
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">      
+      <div class="profile">
+        <h1 class="text-light"><a href="index.html">Charles Lucas</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://twitter.com/charles_lucas56" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100007700359117" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/c_lucas56/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/charles-lucas-b21422235/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu navbar" id="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero"><span>Home</span></a></li>
+          <li><a class="nav-link scrollto" href="#about"><span>About</span></a></li>
+          <li><a class="nav-link scrollto" href="#skills"><span>Skills</span></a></li>
+          <li><a class="nav-link scrollto" href="#resume"><span>Resume</span></a></li>
+          <li><a class="nav-link scrollto" href="#services"><span>Services</span></a></li>
+          <li><a class="nav-link scrollto" href="#portfolio"><span>Portfolio</span></a></li>
+          <li><a class="nav-link scrollto" href="#contact"><span>Contact</span></a></li>
+        </ul>
+      </nav>
+      <!-- .nav-menu -->
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Charles Lucas</h1>
+      <p>I'm a <span class="typed" data-typed-items="Data Analyst, Data Engineer, Developer, Leader"></span></p>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>I'm an engineer who values efficiency, precision, and continuous improvement—whether I'm programming, automating, or optimizing processes to achieve better outcomes.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img alt="" class="img-fluid" src="assets/img/profile-img-1.jpg" />
+          </div>
+
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Data Analyst/Engineer</h3>
+            <p class="fst-italic">Entry-Level Data Analyst/Engineer at Wabash with a Cum Laude degree in Computer Engineering Technology and a minor in Electronics Engineering Technology from Indiana State University.</p>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><strong>Phone:</strong> <span>+1-812-498-3266</span></li>
+                  <li><strong>City:</strong> <span>Milwaukee, WI USA</span></li>
+                </ul>
+              </div>
+
+              <div class="col-lg-6">
+                <ul>
+                  <li><strong>Degree:</strong> <span>Bachelors</span></li>
+                  <li><strong>Email :</strong> <span>charleslucas562@gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <p>I am a Data Analyst/Engineer at One Wabash, where I design and maintain enterprise-scale data solutions across the Azure ecosystem. My work focuses on building and optimizing data pipelines in Azure Synapse Analytics, integrating DB2, SAP, and AS400 systems into a modern Data Lakehouse architecture. I also develop Power BI dashboards and Power Platform automations that streamline executive reporting, project intake, and operational efficiency.</p>
+            <p>I graduated Cum Laude from Indiana State University in 2024 with a degree in Computer Engineering Technology and a minor in Electronics Engineering Technology, where I built a strong foundation in programming (C, Python, SQL), automation systems, and circuit analysis. This blend of engineering and data expertise allows me to bridge technical and business needs—transforming raw data into scalable, actionable insights.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section class="skills section-bg" id="skills">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>These below are skills I've shown efficiency in. I am promised to help in any of the areas below.</p>
+        </div>
+
+        <div class="row skills-content">
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="progress">
+              <span class="skill">Azure SQL <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Azure Synapse Analytics <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="75" class="progress-bar" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Programming Languages - C, Python, HTML<i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Problem Solving - RCA <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar" role="progressbar"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="progress">
+              <span class="skill">SharePoint Administration <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="95" class="progress-bar" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Robotic Process Automation <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Critical Thinking <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" class="progress-bar" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">MS Power Platform <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" class="progress-bar" role="progressbar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section class="resume" id="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2>Resume</h2>
+        </div>
+
+        <div class="row">
+          <!-- LEFT COLUMN - Professional Experience -->
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Professional Experience</h3>
+
+            <div class="resume-item">
+              <h4>Data Analyst / Engineer</h4>
+              <h5>2025 - Present</h5>
+              <p><em>One Wabash, Lafayette, IN</em></p>
+              <ul>
+                <li>Designed and implemented data pipelines in Azure Synapse Analytics using parent-child orchestration, integrating DB2, SAP, and AS400 into a modern Data Lakehouse (Bronze–Silver–Gold).</li>
+                <li>Built metadata-driven, parameterized pipelines for incremental and snapshot loads, improving scalability and reducing maintenance time.</li>
+                <li>Developed external tables and Spark-based notebooks for file partitioning, validation, and quality checks in ADLS Gen2.</li>
+                <li>Created Power BI dashboards for executive reporting with incremental refresh, row-level security, and DAX optimization.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Automation Engineer</h4>
+              <h5>2024 - 2025</h5>
+              <p><em>One Wabash, Lafayette, IN</em></p>
+              <ul>
+                <li>Developed and deployed an enterprise-wide PMO Intake Application using Power Apps, Power Automate, and SharePoint.</li>
+                <li>Integrated Planview and SQL Data Lake for automatic project creation and metadata synchronization, reducing intake time by 80%.</li>
+                <li>Led the SharePoint Online migration, moving 500+ GB of data from legacy systems to modern SPO architecture.</li>
+                <li>Automated core business processes through Power Automate, cutting approval turnaround by 50% and reducing workflow-related tickets by 40%.</li>
+                <li>Built a Power Page hosting a custom Microsoft CoPilot chatbot using JavaScript and prompt engineering for secure, domain-specific AI assistance.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Robotic Process Automation Intern</h4>
+              <h5>2023 - 2024</h5>
+              <p><em>One Wabash, Lafayette, IN</em></p>
+              <ul>
+                <li>Facilitated a company-wide Power Automate RPA Challenge with 72 participants, achieving over 2,000 annual hours saved.</li>
+                <li>Delivered Power Platform training to 11 teams, improving automation adoption across departments.</li>
+                <li>Developed automated tracking and email systems for vendor debit management using Power Automate.</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Leadership & Involvement</h3>
+            <div class="resume-item">
+              <h4>President, Sigma Phi Epsilon Fraternity</h4>
+              <h5>2021 - 2023</h5>
+              <p><em>Indiana Delta Chapter, Terre Haute, IN</em></p>
+              <ul>
+                <li>Led a 40-member chapter and 8-person executive board, achieving "Most Improved Organization" in Fraternity & Sorority Life.</li>
+                <li>Directed strategic growth in membership, academics, and scholarship performance through structured leadership planning.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Vice President of Communications</h4>
+              <h5>2020 - 2021</h5>
+              <p><em>Indiana Delta Chapter, Terre Haute, IN</em></p>
+              <ul>
+                <li>Created a communication strategy to enhance visibility and engagement through digital channels.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- RIGHT COLUMN - Education -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Science in Computer Engineering Technology</h4>
+              <h5>2020 - 2024</h5>
+              <p><em>Indiana State University, Terre Haute, IN</em></p>
+              <p>Graduated <strong>Cum Laude</strong> with a minor in Electronics Engineering Technology. Built a strong foundation in programming (C, Python, SQL), circuit analysis, and automation systems.</p>
+            </div>
+
+            <h4 class="resume-title">Relevant Coursework and Projects</h4>
+            <div class="resume-item">
+              <h4>Home Server Web Hosting</h4>
+              <h5>2023</h5>
+              <p><em>Seymour, Indiana</em></p>
+              <ul>
+                <li>Designed and deployed a home network using an IBM server, Cisco switch, and router.</li>
+                <li>Configured RHEL and Ubuntu-based servers for local and remote web hosting via VPN.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Microcontroller IoT Temperature System</h4>
+              <h5>2023</h5>
+              <p><em>Indiana State University</em></p>
+              <ul>
+                <li>Developed an IoT system to measure and publish temperature data in real time using Wi-Fi-enabled microcontrollers.</li>
+                <li>Visualized sensor data through HTML dashboards integrated with ThinkSpeak.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Circuit Analysis</h4>
+              <h5>2022</h5>
+              <p><em>Indiana State University, Terre Haute, IN</em></p>
+              <ul>
+                <li>Applied Thevenin, Norton, and Superposition methods for complex circuit design and analysis.</li>
+                <li>Performed mesh, nodal, and branch current analysis to verify system efficiency.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Resume Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section class="services" id="services">
+      <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+        <div class="container">
+          <div class="section-title">
+            <h2>IT Consulting</h2>
+            <p>Underneath is my services I offer to commercial and residential clients.</p>
+          </div>
+          
+          <div class="resume-item">
+            <h3>Computer Service and Repair</h3>
+            <p>Hardware Diagnostics and Repair: Identify and fix issues with computer hardware such as motherboards, CPUs, GPUs, RAM, power supplies, and more</p>
+            <p>Data Recovery: Recover lost or corrupted data from hard drives, SSDs, and other storage devices</p>
+            <p>Operating System Installation and Upgrade: Install or upgrade Windows, macOS, Linux, and other operating systems</p>
+            <p>Virus and Malware Removal: Scan and remove viruses, malware, spyware, and other malicious software from computer</p>
+            <p>Software Installation and Configuration: Install and configure software applications to meet client needs</p>
+            <p>System Optimization: Improve computer performance by optimizing system settings and removing unnecessary programs and files</p>
+          </div>
+
+          <div class="resume-item">
+            <h3>IOT Devices</h3>
+            <p>Smart Home Setup and Integration: Design and install complete smart home systems including smart lighting, thermostats, security cameras, doorbells, and smart locks</p>
+            <p>Voice Assistant Integration: Set up and integrate voice assistants like Amazon Alexa, Google Assistant, or Apple Siri with smart home devices for voice control</p>
+            <p>Smart Home Security Solutions: Install and configure smart security systems, including cameras, motion sensors, and alarm systems for enhanced home security</p>
+            <p>Firmware Updates and Maintenance: Regularly update device firmware to ensure they are running the latest software and security patches</p>
+            <p>Network Configuration: Ensure IoT devices are properly connected to the network and configured for optimal performance and security</p>
+          </div>
+
+          <div class="email">
+            <h3>Contact me</h3>
+            <h3>Email:</h3>
+            <p>charleslucas562@gmail.com</p>
+            
+            <div class="phone">
+              <h3>Call:</h3>
+              <p>+1(812) 498-3266</p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section class="portfolio section-bg" id="portfolio">
+      <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-up">
+        <div class="container">
+          <div class="section-title">
+            <h2>Portfolio</h2>
+            <p>Underneath is my completed projects and descriptions.</p>
+          </div>
+
+          <div class="section-item">
+            <h1>Senior Project</h1>
+          </div>
+
+          <table>
+            <tr>
+              <td>
+                <div class="col-lg-10" data-aos="fade-left" data-aos-delay="100">
+                  <img alt="" class="img-fluid" src="assets/img/Main_Setup.jpg" />
+                </div>
+              </td>
+              <td>
+                <div class="col-lg-10" data-aos="fade-right">
+                  <img alt="" class="img-fluid" src="assets/img/Screen.jpg" />
+                </div>
+              </td>
+            </tr>
+          </table>
+
+          <table>
+            <tr>
+              <td>
+                <div class="col-lg-10" data-aos="fade-left" data-aos-delay="100">
+                  <img alt="" class="img-fluid" src="assets/img/Mounting.jpg" />
+                </div>
+              </td>
+              <td>
+                <div class="col-lg-10" data-aos="fade-right">
+                  <img alt="" class="img-fluid" src="assets/img/Cars.jpg" />
+                </div>
+              </td>
+            </tr>       
+          </table>
+
+          <p>This project stemmed from our team's passion for microcontrollers and developing efficient, real-world solutions from the ground up. We built a parking sensor system that used ultrasonic sensors and Arduino microcontrollers to detect vehicle presence and display available spots on an LCD screen.</p>
+          <p>Testing took place at the Indiana State University parking garage, where the sensors were installed in 3D-printed housings for weather protection and ease of setup. Two interconnected Arduinos communicated via serial transmission—one collecting sensor data and the other displaying real-time parking availability.</p>
+          <p>The project applied structured project management practices, including GANTT charts, Work Breakdown Structures, and cost estimation, ensuring an organized and deliverable-driven development process.</p>
+
+          <h4>Youtube Link of Demonstration</h4>
+          <p>Watch it <a href="https://www.youtube.com/watch?v=TFzTekhCgys">here</a> for a more detailed view of how it works.</p>
+
+          <div class="section-item">
+            <h1>Semester 1 Project Temperature IOT</h1>
+          </div>
+
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+          <iframe height="260" src="https://thingspeak.com/channels/2043121/charts/1?bgcolor=%23ffffff&amp;color=%23d62020dynamic=true&amp;results=60&amp;type=line&amp;update=15" style="border: 1px solid #cccccc;" width="450"></iframe>&nbsp; &nbsp; &nbsp;
+          <iframe height="260" src="https://thingspeak.com/channels/2043121/charts/2?bgcolor=%23ffffff&amp;color=%23d62020&amp;dynamic=true&amp;results=60&amp;type=line&amp;update=15" style="border: 1px solid #cccccc;" width="450"></iframe>
+
+          <p>Designed a circuit to read the temperature with a thermistor and microcontroller analog pin. Programmed the microcontroller to be able to read Fahrenheit and Celsius by a click of a push button. Printed out my results to my html website using graphs from thing speak. Communicated from my microcontroller to my Wi-Fi by using a Wi-Fi shield and code.</p>
+
+          <div class="section-item">
+            <h1>Semester 2 Project Motion Detection IOT</h1>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2094765/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&min=0&results=200&type=line"></iframe>
+          </div>
+
+          <p id="my-tag"></p>
+          <p>Designed a program using two micrcontrollers to be able to capture motion using a TTL Serial Camera. Following that one microcontroller caputured the image and saved the image to an SD card. Then the second microcontroller would upload to thing speak as well as add a time stamp to this website. As well as used a Wi-Fi shield to be able to connect to the internet to upload the results. Our program caputured the time stamp as well as sent a notification to this website.</p>
+        </div>
+      </div>
+    </section>
+    <!-- End of Portfolio -->
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Feel free to contact me!</p>
+        </div>
+          
+        <div class="row justify-content-center" data-aos="fade-in">
+          <div class="col-lg-10">
+            <div class="contact-wrapper">
+              <div class="contact-info-section">
+                <div class="contact-info-item">
+                  <i class="bx bx-envelope"></i>
+                  <div>
+                    <h4>Email</h4>
+                    <p><a href="mailto:charleslucas562@gmail.com">charleslucas562@gmail.com</a></p>
+                  </div>
+                </div>
+
+                <div class="contact-info-item">
+                  <i class="bx bx-phone"></i>
+                  <div>
+                    <h4>Call</h4>
+                    <p><a href="tel:+18124983266">+1 (812) 498-3266</a></p>
+                  </div>
+                </div>
+
+                <div class="social-section mobile-only-social" style="display: none;">
+                  <h4 class="social-title">Connect With Me</h4>
+                  <div class="social-links-contact">
+                    <a href="https://twitter.com/charles_lucas56" class="twitter" title="Twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100007700359117" class="facebook" title="Facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/c_lucas56/" class="instagram" title="Instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/charles-lucas-b21422235/" class="linkedin" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">&copy; Copyright <strong><span>clucas</span></strong></div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://www.linkedin.com/in/charles-lucas562/">Charles Lucas 2023</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  
+  <script>
+    const tag = document.getElementById("my-tag");
+    function updateTag(){
+      fetch('https://api.thingspeak.com/channels/2094765/fields/1.json?results=2')
+        .then(response=> response.json())
+        .then(data =>{
+          const isoDateString = data.feeds[0].created_at
+          const date = new Date(isoDateString)
+          const regularDate = date.toLocaleString()
+          tag.innerHTML = "Message: " + data.feeds[0].field1 + "<br/>" + "Time Stamp: " + regularDate
+        })
+        .catch(error => console.error(error));
+    }
+    updateTag();
+    setInterval(updateTag, 500)
+
+    // Handle social section visibility based on screen size
+    function handleSocialVisibility() {
+      const socialSection = document.querySelector('.mobile-only-social');
+      if (socialSection) {
+        if (window.innerWidth <= 768) {
+          socialSection.style.display = 'block';
+        } else {
+          socialSection.style.display = 'none';
+        }
+      }
+    }
+
+    // Run on load
+    window.addEventListener('load', handleSocialVisibility);
+    // Run on resize
+    window.addEventListener('resize', handleSocialVisibility);
+  </script>
+</body>
+</html>

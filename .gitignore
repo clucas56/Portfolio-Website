@@ -1,0 +1,33 @@
+# Backups and archives
+*.zip
+*.bkp
+*.save
+*.old
+
+# Logs
+logs/
+*.log
+access-logs/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# CGI and server files (optional, uncomment if needed)
+# cgi-bin/
+
+# Large vendor map files (optional - these are just source maps)
+*.map
+
+# Environment files (if you have any)
+.env
+.env.local
+config.php
